@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.color {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.2rem;
+}
+
+.on {
+    background-color: white;
+    color: black;
+}
+.off {
+    background-color: black;
+    color: white;
+}
